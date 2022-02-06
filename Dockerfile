@@ -3,7 +3,7 @@ LABEL maintainer="Guido Schmutz <guido.schmutz@trivadis.com>"
 
 WORKDIR /optuna/
 
-ARG OPTUNA_DASHBOARD_VERSION=0.4.2
+ARG OPTUNA_DASHBOARD_VERSION=0.5.0
 RUN mkdir -p /optuna/ \
   && apt-get update && apt-get install -y \
     build-essential \
