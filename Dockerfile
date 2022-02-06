@@ -1,4 +1,4 @@
-FROM conda/miniconda3:latest
+FROM python:3.8-buster
 LABEL maintainer="Guido Schmutz <guido.schmutz@trivadis.com>"
 
 WORKDIR /optuna/
